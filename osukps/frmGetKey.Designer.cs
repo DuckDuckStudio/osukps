@@ -41,7 +41,7 @@
 			this.btnOk.Name = "btnOk";
 			this.btnOk.Size = new System.Drawing.Size(329, 23);
 			this.btnOk.TabIndex = 0;
-			this.btnOk.Text = "Ok";
+			this.btnOk.Text = "确认";
 			this.btnOk.UseVisualStyleBackColor = true;
 			this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
 			// 
@@ -53,7 +53,7 @@
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(329, 23);
 			this.btnCancel.TabIndex = 1;
-			this.btnCancel.Text = "Cancel";
+			this.btnCancel.Text = "取消";
 			this.btnCancel.UseVisualStyleBackColor = true;
 			this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
 			// 
@@ -66,7 +66,7 @@
 			this.lblKey.Name = "lblKey";
 			this.lblKey.Size = new System.Drawing.Size(332, 26);
 			this.lblKey.TabIndex = 2;
-			this.lblKey.Text = "[Press a key]";
+			this.lblKey.Text = "[输入一个按键]";
 			this.lblKey.TextAlign = System.Drawing.ContentAlignment.TopCenter;
 			// 
 			// chkShowLabel
@@ -78,7 +78,7 @@
 			this.chkShowLabel.Name = "chkShowLabel";
 			this.chkShowLabel.Size = new System.Drawing.Size(81, 17);
 			this.chkShowLabel.TabIndex = 3;
-			this.chkShowLabel.Text = "Show label:";
+			this.chkShowLabel.Text = "显示内容:";
 			this.chkShowLabel.UseVisualStyleBackColor = true;
 			// 
 			// txtKey
@@ -100,7 +100,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(36, 13);
 			this.label1.TabIndex = 5;
-			this.label1.Text = "Colors";
+			this.label1.Text = "颜色";
 			// 
 			// btnColActive
 			// 
@@ -138,7 +138,7 @@
 			this.KeyPreview = true;
 			this.MinimumSize = new System.Drawing.Size(362, 184);
 			this.Name = "frmGetKey";
-			this.Text = "osukps - key config";
+			this.Text = "osukps - 按键配置";
 			this.Load += new System.EventHandler(this.frmGetKey_Load);
 			this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.frmGetKey_KeyUp);
 			this.ResumeLayout(false);
