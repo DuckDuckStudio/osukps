@@ -203,12 +203,12 @@ namespace osukps {
 
 		private void UpdateHideButtonsMenuItem(bool dohide) {
 			if (dohide) {
-				hideButtonsToolStripMenuItem.Text = "Show buttons";
+				hideButtonsToolStripMenuItem.Text = "显示按键";
 				SetVisibleButtonCount(0);
 				return;
 			}
 
-			hideButtonsToolStripMenuItem.Text = "Hide buttons";
+			hideButtonsToolStripMenuItem.Text = "隐藏按键";
 			SetVisibleButtonCount(this.buttonCount);
 		}
 
