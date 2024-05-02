@@ -1,5 +1,6 @@
 ## osukps
-A little program that shows keystates, keys per second and total keys for rythm games (osu!, stepmania etc).
+A little program that shows keystates, keys per second and total keys for rythm games (osu!, stepmania etc).  
+[查看中文翻译README](/Chinese/README.md)
 
 ## Preview
 ![preview](/preview.gif?raw=true)  
