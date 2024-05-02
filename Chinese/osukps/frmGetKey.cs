@@ -86,7 +86,7 @@ namespace osukps {
 			oldinactivecolor = colors.inactive;
 			btnColInactive.BackColor = colors.inactive;
 			btnColActive.BackColor = colors.active;
-			lblKey.Text = "[ Press a key ]";
+			lblKey.Text = "[ 按下一个按键 ]";
 			Cancelled = true;
 			keychanged = false;
 		}

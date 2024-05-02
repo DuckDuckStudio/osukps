@@ -66,7 +66,7 @@
 			this.lblKey.Name = "lblKey";
 			this.lblKey.Size = new System.Drawing.Size(332, 26);
 			this.lblKey.TabIndex = 2;
-			this.lblKey.Text = "[输入一个按键]";
+			this.lblKey.Text = "[按下一个按键]";
 			this.lblKey.TextAlign = System.Drawing.ContentAlignment.TopCenter;
 			// 
 			// chkShowLabel
