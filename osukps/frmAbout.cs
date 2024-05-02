@@ -25,7 +25,7 @@ namespace osukps {
 
 		private void btnUpdate_Click(object sender, EventArgs e) {
 			btnUpdate.Enabled = false;
-			btnUpdate.Text = "Checking...";
+			btnUpdate.Text = "检查中...";
 			Task.Factory.StartNew(DoUpdateCheck);
 		}
 
@@ -35,7 +35,7 @@ namespace osukps {
 				try {
 					if (changelog == null) {
 						btnUpdate.Enabled = true;
-						btnUpdate.Text = "Check failed - click to retry";
+						btnUpdate.Text = "检查失败 - 再次点击重试";
 						return;
 					}
 
@@ -47,11 +47,11 @@ namespace osukps {
 
 					if (latestTag == null) {
 						btnUpdate.Enabled = true;
-						btnUpdate.Text = "Invalid response - click to retry";				
+						btnUpdate.Text = "无效响应 - 再次点击重试";				
 						return;
 					}
 
-					btnUpdate.Text = "Update check finished";
+					btnUpdate.Text = "更新检查完成";
 					Size = new Size(Size.Width, 292);
 					txtChangelog.Visible = true;
 					txtChangelog.Lines = StripChangelog(changelog, latestVersion - VERSION).Split('\n');
@@ -61,7 +61,7 @@ namespace osukps {
 					string msg = "Something went horribly wrong: " + e.Message;
 					MessageBox.Show(msg, "osukps", MessageBoxButtons.OK, MessageBoxIcon.Error);
 					btnUpdate.Enabled = true;
-					btnUpdate.Text = "Check failed - click to retry";
+					btnUpdate.Text = "检查失败 - 再次点击重试";
 					return;
 				}
 			}));
@@ -95,7 +95,7 @@ namespace osukps {
 
 		private string StripChangelog(string changelog, int versionsBehind) {
 			if (versionsBehind < 1) {
-				return "this is the latest version! yey!";
+				return "这是最新版本！耶！";
 			}
 
 			int startIdx = 0;
