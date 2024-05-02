@@ -41,7 +41,7 @@
 			this.btnOK.Name = "btnOK";
 			this.btnOK.Size = new System.Drawing.Size(75, 23);
 			this.btnOK.TabIndex = 0;
-			this.btnOK.Text = "Ok";
+			this.btnOK.Text = "确认";
 			this.btnOK.UseVisualStyleBackColor = true;
 			this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
 			// 
@@ -53,7 +53,7 @@
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(75, 23);
 			this.btnCancel.TabIndex = 1;
-			this.btnCancel.Text = "Cancel";
+			this.btnCancel.Text = "取消";
 			this.btnCancel.UseVisualStyleBackColor = true;
 			this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
 			// 
@@ -74,7 +74,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(122, 33);
 			this.label2.TabIndex = 3;
-			this.label2.Text = "Color";
+			this.label2.Text = "颜色";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label3
@@ -84,7 +84,7 @@
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(115, 33);
 			this.label3.TabIndex = 4;
-			this.label3.Text = "Smooth color transition from prev";
+			this.label3.Text = "平滑过渡";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// btnSort
@@ -94,7 +94,7 @@
 			this.btnSort.Name = "btnSort";
 			this.btnSort.Size = new System.Drawing.Size(75, 23);
 			this.btnSort.TabIndex = 6;
-			this.btnSort.Text = "Sort";
+			this.btnSort.Text = "排序";
 			this.btnSort.UseVisualStyleBackColor = true;
 			this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
 			// 
@@ -105,7 +105,7 @@
 			this.btnAdd.Name = "btnAdd";
 			this.btnAdd.Size = new System.Drawing.Size(75, 23);
 			this.btnAdd.TabIndex = 7;
-			this.btnAdd.Text = "Add one";
+			this.btnAdd.Text = "添加";
 			this.btnAdd.UseVisualStyleBackColor = true;
 			this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
 			// 
@@ -136,7 +136,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "frmKps";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "osukps KPS editor";
+			this.Text = "osukps KPS 编辑器";
 			this.Load += new System.EventHandler(this.frmKps_Load);
 			this.ResumeLayout(false);
 
