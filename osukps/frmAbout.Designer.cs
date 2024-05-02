@@ -60,7 +60,7 @@
 			this.btnUpdate.Name = "btnUpdate";
 			this.btnUpdate.Size = new System.Drawing.Size(299, 23);
 			this.btnUpdate.TabIndex = 2;
-			this.btnUpdate.Text = "Check for updates";
+			this.btnUpdate.Text = "点击检查更新";
 			this.btnUpdate.UseVisualStyleBackColor = true;
 			this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
 			// 
@@ -106,7 +106,7 @@
 			this.Font = new System.Drawing.Font("Tahoma", 8.25F);
 			this.MaximizeBox = false;
 			this.Name = "frmAbout";
-			this.Text = "About osukps v{0}";
+			this.Text = "关于 osukps v{0}";
 			this.Load += new System.EventHandler(this.frmAbout_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
