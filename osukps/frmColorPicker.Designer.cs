@@ -79,7 +79,7 @@
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(393, 23);
 			this.btnCancel.TabIndex = 6;
-			this.btnCancel.Text = "Cancel";
+			this.btnCancel.Text = "取消";
 			this.btnCancel.UseVisualStyleBackColor = true;
 			this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
 			// 
@@ -91,7 +91,7 @@
 			this.btnOk.Name = "btnOk";
 			this.btnOk.Size = new System.Drawing.Size(393, 23);
 			this.btnOk.TabIndex = 5;
-			this.btnOk.Text = "Ok";
+			this.btnOk.Text = "确认";
 			this.btnOk.UseVisualStyleBackColor = true;
 			this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
 			// 
@@ -172,7 +172,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "frmColorPicker";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "osukps - colorpicker";
+			this.Text = "osukps - 颜色选取程序";
 			this.TopMost = true;
 			this.Load += new System.EventHandler(this.frmColorPicker_Load);
 			((System.ComponentModel.ISupportInitialize)(this.rnum)).EndInit();
