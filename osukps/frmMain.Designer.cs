@@ -153,13 +153,13 @@
 			// 
 			this.buttonCountToolStripMenuItem.Name = "buttonCountToolStripMenuItem";
 			this.buttonCountToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.buttonCountToolStripMenuItem.Text = "Button count";
+			this.buttonCountToolStripMenuItem.Text = "按键数量";
 			// 
 			// hideButtonsToolStripMenuItem
 			// 
 			this.hideButtonsToolStripMenuItem.Name = "hideButtonsToolStripMenuItem";
 			this.hideButtonsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.hideButtonsToolStripMenuItem.Text = "Hide buttons";
+			this.hideButtonsToolStripMenuItem.Text = "隐藏按键";
 			this.hideButtonsToolStripMenuItem.Click += new System.EventHandler(this.hideButtonsToolStripMenuItem_Click);
 			// 
 			// toolStripSeparator7
@@ -171,21 +171,21 @@
 			// 
 			this.tmiEditKpsColors.Name = "tmiEditKpsColors";
 			this.tmiEditKpsColors.Size = new System.Drawing.Size(164, 22);
-			this.tmiEditKpsColors.Text = "Edit KPS colors";
+			this.tmiEditKpsColors.Text = "修改 KPS 颜色";
 			this.tmiEditKpsColors.Click += new System.EventHandler(this.tmiEditKpsColors_Click);
 			// 
 			// tmiEditGlobalInactiveColor
 			// 
 			this.tmiEditGlobalInactiveColor.Name = "tmiEditGlobalInactiveColor";
 			this.tmiEditGlobalInactiveColor.Size = new System.Drawing.Size(164, 22);
-			this.tmiEditGlobalInactiveColor.Text = "Edit global inactive color";
+			this.tmiEditGlobalInactiveColor.Text = "修改全局未按下键时颜色";
 			this.tmiEditGlobalInactiveColor.Click += new System.EventHandler(this.tmiEditGlobalInactiveColor_Click);
 			// 
 			// tmiEditGlobalActiveColor
 			// 
 			this.tmiEditGlobalActiveColor.Name = "tmiEditGlobalActiveColor";
 			this.tmiEditGlobalActiveColor.Size = new System.Drawing.Size(164, 22);
-			this.tmiEditGlobalActiveColor.Text = "Edit global active color";
+			this.tmiEditGlobalActiveColor.Text = "修改全局按下键时颜色";
 			this.tmiEditGlobalActiveColor.Click += new System.EventHandler(this.tmiEditGlobalActiveColor_Click);
 			// 
 			// toolStripSeparator2
@@ -201,27 +201,27 @@
             this.resetAllToolStripMenuItem});
 			this.tsiReset.Name = "tsiReset";
 			this.tsiReset.Size = new System.Drawing.Size(164, 22);
-			this.tsiReset.Text = "Reset";
+			this.tsiReset.Text = "重置";
 			// 
 			// tsiResetKeys
 			// 
 			this.tsiResetKeys.Name = "tsiResetKeys";
 			this.tsiResetKeys.Size = new System.Drawing.Size(123, 22);
-			this.tsiResetKeys.Text = "Total keys";
+			this.tsiResetKeys.Text = "总按下次数";
 			this.tsiResetKeys.Click += new System.EventHandler(this.tsiResetKeys_Click);
 			// 
 			// resetToolStripMenuItem
 			// 
 			this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
 			this.resetToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-			this.resetToolStripMenuItem.Text = "Max KPS";
+			this.resetToolStripMenuItem.Text = "最大 KPS";
 			this.resetToolStripMenuItem.Click += new System.EventHandler(this.tsiResetMaxKPS_Click);
 			// 
 			// resetAllToolStripMenuItem
 			// 
 			this.resetAllToolStripMenuItem.Name = "resetAllToolStripMenuItem";
 			this.resetAllToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-			this.resetAllToolStripMenuItem.Text = "Both";
+			this.resetAllToolStripMenuItem.Text = "两者";
 			this.resetAllToolStripMenuItem.Click += new System.EventHandler(this.tsiResetBoth_Click);
 			// 
 			// toolStripSeparator1
@@ -235,7 +235,7 @@
             this.disabledToolStripMenuItem});
 			this.startStopRecHotkeyToolStripMenuItem.Name = "startStopRecHotkeyToolStripMenuItem";
 			this.startStopRecHotkeyToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.startStopRecHotkeyToolStripMenuItem.Text = "Start/Stop rec hotkey";
+			this.startStopRecHotkeyToolStripMenuItem.Text = "开始/停止录制的热键";
 			// 
 			// disabledToolStripMenuItem
 			// 
@@ -244,21 +244,21 @@
 			this.disabledToolStripMenuItem.Name = "disabledToolStripMenuItem";
 			this.disabledToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
 			this.disabledToolStripMenuItem.Tag = 0;
-			this.disabledToolStripMenuItem.Text = "disabled";
+			this.disabledToolStripMenuItem.Text = "无";
 			this.disabledToolStripMenuItem.Click += new System.EventHandler(this.SSRHotkey_Click);
 			// 
 			// cmsStartStopRecording
 			// 
 			this.cmsStartStopRecording.Name = "cmsStartStopRecording";
 			this.cmsStartStopRecording.Size = new System.Drawing.Size(164, 22);
-			this.cmsStartStopRecording.Text = "Start recording";
+			this.cmsStartStopRecording.Text = "开始录制";
 			this.cmsStartStopRecording.Click += new System.EventHandler(this.cmsStartStopRecording_Click);
 			// 
 			// cmsPlaybackRecording
 			// 
 			this.cmsPlaybackRecording.Name = "cmsPlaybackRecording";
 			this.cmsPlaybackRecording.Size = new System.Drawing.Size(164, 22);
-			this.cmsPlaybackRecording.Text = "Playback recording";
+			this.cmsPlaybackRecording.Text = "播放录制";
 			this.cmsPlaybackRecording.Click += new System.EventHandler(this.cmsPlaybackRecording_Click);
 			// 
 			// toolStripSeparator3
@@ -274,21 +274,21 @@
             this.toolStripSeparator6});
 			this.saveKeySettingsToolStripMenuItem.Name = "saveKeySettingsToolStripMenuItem";
 			this.saveKeySettingsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.saveKeySettingsToolStripMenuItem.Text = "Save Key Setup";
+			this.saveKeySettingsToolStripMenuItem.Text = "保存按键设置";
 			this.saveKeySettingsToolStripMenuItem.Click += new System.EventHandler(this.saveKeySettingsToolStripMenuItem_Click);
 			// 
 			// newConfigurationToolStripMenuItem
 			// 
 			this.newConfigurationToolStripMenuItem.Name = "newConfigurationToolStripMenuItem";
 			this.newConfigurationToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-			this.newConfigurationToolStripMenuItem.Text = "(save as new configuration)";
+			this.newConfigurationToolStripMenuItem.Text = "(保存为一个新的配置文件)";
 			this.newConfigurationToolStripMenuItem.Click += new System.EventHandler(this.newConfigurationToolStripMenuItem_Click);
 			// 
 			// currentConfigurationToolStripMenuItem
 			// 
 			this.currentConfigurationToolStripMenuItem.Name = "currentConfigurationToolStripMenuItem";
 			this.currentConfigurationToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-			this.currentConfigurationToolStripMenuItem.Text = "osukps.ini";
+			this.currentConfigurationToolStripMenuItem.Text = "osukps.ini";// 默认
 			this.currentConfigurationToolStripMenuItem.Click += new System.EventHandler(this.currentConfigurationToolStripMenuItem_Click);
 			// 
 			// toolStripSeparator6
@@ -302,7 +302,7 @@
             this.noConfigurationsFoundToolStripMenuItem});
 			this.loadKeySetupToolStripMenuItem.Name = "loadKeySetupToolStripMenuItem";
 			this.loadKeySetupToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.loadKeySetupToolStripMenuItem.Text = "Load Key Setup";
+			this.loadKeySetupToolStripMenuItem.Text = "加载按键设置";
 			this.loadKeySetupToolStripMenuItem.Click += new System.EventHandler(this.loadKeySetupToolStripMenuItem_Click);
 			// 
 			// noConfigurationsFoundToolStripMenuItem
@@ -310,7 +310,7 @@
 			this.noConfigurationsFoundToolStripMenuItem.Enabled = false;
 			this.noConfigurationsFoundToolStripMenuItem.Name = "noConfigurationsFoundToolStripMenuItem";
 			this.noConfigurationsFoundToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-			this.noConfigurationsFoundToolStripMenuItem.Text = "(no configurations found)";
+			this.noConfigurationsFoundToolStripMenuItem.Text = "(未找到配置文件)";
 			// 
 			// toolStripSeparator5
 			// 
@@ -321,21 +321,21 @@
 			// 
 			this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
 			this.settingsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.settingsToolStripMenuItem.Text = "Settings(Not Working)";
+			this.settingsToolStripMenuItem.Text = "Settings(Not Working)";// 未找到用途
 			this.settingsToolStripMenuItem.Visible = false;
 			// 
 			// changeFontToolStripMenuItem
 			// 
 			this.changeFontToolStripMenuItem.Name = "changeFontToolStripMenuItem";
 			this.changeFontToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.changeFontToolStripMenuItem.Text = "Change font";
+			this.changeFontToolStripMenuItem.Text = "修改字体";
 			this.changeFontToolStripMenuItem.Click += new System.EventHandler(this.changeFontToolStripMenuItem_Click);
 			// 
 			// resetFontToolStripMenuItem
 			// 
 			this.resetFontToolStripMenuItem.Name = "resetFontToolStripMenuItem";
 			this.resetFontToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.resetFontToolStripMenuItem.Text = "Reset font";
+			this.resetFontToolStripMenuItem.Text = "重置字体";
 			this.resetFontToolStripMenuItem.Click += new System.EventHandler(this.resetFontToolStripMenuItem_Click);
 			// 
 			// toolStripSeparator4
@@ -347,14 +347,14 @@
 			// 
 			this.tsiAbout.Name = "tsiAbout";
 			this.tsiAbout.Size = new System.Drawing.Size(164, 22);
-			this.tsiAbout.Text = "About";
+			this.tsiAbout.Text = "关于";
 			this.tsiAbout.Click += new System.EventHandler(this.tsiAbout_Click);
 			// 
 			// tsiExit
 			// 
 			this.tsiExit.Name = "tsiExit";
 			this.tsiExit.Size = new System.Drawing.Size(164, 22);
-			this.tsiExit.Text = "&Exit";
+			this.tsiExit.Text = "&退出";
 			this.tsiExit.Click += new System.EventHandler(this.tsiExit_Click);
 			// 
 			// tmrProcess
@@ -367,14 +367,14 @@
 			// 
 			this.tmiEditBackColor.Name = "tmiEditBackColor";
 			this.tmiEditBackColor.Size = new System.Drawing.Size(164, 22);
-			this.tmiEditBackColor.Text = "Edit background color";
+			this.tmiEditBackColor.Text = "编辑背景颜色";
 			this.tmiEditBackColor.Click += new System.EventHandler(this.tmiEditBackColor_Click);
 			// 
 			// tmiEditForeColor
 			// 
 			this.tmiEditForeColor.Name = "tmiEditForeColor";
 			this.tmiEditForeColor.Size = new System.Drawing.Size(164, 22);
-			this.tmiEditForeColor.Text = "Edit foreground color";
+			this.tmiEditForeColor.Text = "编辑字体颜色";
 			this.tmiEditForeColor.Click += new System.EventHandler(this.tmiEditForeColor_Click);
 			// 
 			// frmMain
