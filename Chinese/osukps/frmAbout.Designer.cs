@@ -49,7 +49,7 @@
 			this.lblInfo.Name = "lblInfo";
 			this.lblInfo.Size = new System.Drawing.Size(302, 35);
 			this.lblInfo.TabIndex = 1;
-			this.lblInfo.Text = "osukps v{0} by yugecin/robin_be et al.";
+			this.lblInfo.Text = "osukps v{0} by yugecin/robin_be et al.\n中文汉化 by 鸭鸭「カモ」";
 			this.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// btnUpdate
