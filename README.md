@@ -1,17 +1,20 @@
 ## osukps
-A little program that shows keystates, keys per second and total keys for rythm games (osu!, stepmania etc).
+一个用于给音游(osu!, stepmania 等)展示 按键状态, KPS(每秒按键次数) 与 总按键数 的小程序.<br>
+本仓库Fork自原作者的仓库，原作者的仓库为:<br>
+[![原作者仓库](https://github-stats.ubrong.com/api/pin/?username=yugecin&repo=osukps)](https://github.com/yugecin/osukps)<br>
 
-## Preview
+## 效果预览
 ![preview](/preview.gif?raw=true)  
-Extra buttons can be added or removed (minimum 1, maximum 10).  
-Button/text/kps colors can be customized.
+可以自由删减或添加按键(最少1个，最多10个)
+按钮/文字/kps的颜色可自定义。
 
-## Download
-See [Releases](https://github.com/yugecin/osukps/releases)
+## 下载
+原作者(English)： [Releases](https://github.com/yugecin/osukps/releases)<br>
+汉化(中文)： [Releases](https://github.com/DuckDuckStudio/osukps/releases)<br>
 
-## Usage
-Right click to access a menu that does stuff (add/remove buttons, exit).  
-Click a button (blue square) to assign a key to it.
+## 如何使用
+右键程序会出现一个菜单，可以在菜单中执行各种操作 (如 添加/删除按键, 退出 等).<br>
+左键点击其中的一个按键可以对那个按键进行单独设置.<br>
 
-## License
+## License (许可证)
 [MIT License](/LICENSE)
