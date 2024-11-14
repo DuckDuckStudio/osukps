@@ -38,7 +38,7 @@
 			this.lblQuestion.Name = "lblQuestion";
 			this.lblQuestion.Size = new System.Drawing.Size(445, 36);
 			this.lblQuestion.TabIndex = 0;
-			this.lblQuestion.Text = "label1";
+			this.lblQuestion.Text = "标签1";// 未找到用途
 			// 
 			// txtInput
 			// 
@@ -57,7 +57,7 @@
 			this.btnOk.Name = "btnOk";
 			this.btnOk.Size = new System.Drawing.Size(75, 23);
 			this.btnOk.TabIndex = 2;
-			this.btnOk.Text = "button1";
+			this.btnOk.Text = "按钮1";// 未找到用途
 			this.btnOk.UseVisualStyleBackColor = true;
 			this.btnOk.Click += new System.EventHandler(this.OnBtnClick);
 			// 
@@ -69,7 +69,7 @@
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(75, 23);
 			this.btnCancel.TabIndex = 3;
-			this.btnCancel.Text = "Cancel";
+			this.btnCancel.Text = "取消";
 			this.btnCancel.UseVisualStyleBackColor = true;
 			this.btnCancel.Click += new System.EventHandler(this.OnBtnClick);
 			// 
@@ -87,7 +87,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "frmPrompt";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "frmPrompt";
+			this.Text = "frmPrompt";// 未找到用途 - 无法翻译
 			this.Load += new System.EventHandler(this.frmPrompt_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

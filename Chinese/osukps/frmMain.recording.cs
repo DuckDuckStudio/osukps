@@ -79,7 +79,7 @@ namespace osukps {
 			infobeforerecord.total = kpsHandler.total;
 			infobeforerecord.max = kpsHandler.max;
 			recordingstate = RS_RECORDING;
-			cmsStartStopRecording.Text = "Stop recording";
+			cmsStartStopRecording.Text = "停止记录";
 			crs = recordingstart;
 			crs.next = null;
 			timer.Reset();
@@ -89,7 +89,7 @@ namespace osukps {
 
 		private void StopRecording() {
 			recordingstate = RS_NONE;
-			cmsStartStopRecording.Text = "Start recording";
+			cmsStartStopRecording.Text = "开始记录";
 			pnlInfo.BackColor = pnlKeys.BackColor = Color.Black;
 			crs.endtime = timer.ElapsedMilliseconds;
 			timer.Reset();
@@ -113,7 +113,7 @@ namespace osukps {
 			timer.Reset();
 			timer.Start();
 			recordingstate = RS_PLAYBACK;
-			cmsPlaybackRecording.Text = "Stop playbacking";
+			cmsPlaybackRecording.Text = "停止播放";
 		}
 
 		private void StopPlayback() {
@@ -123,7 +123,7 @@ namespace osukps {
 				btns[i].keyhandler = savedkeyhandlers[i];
 			}
 			recordingstate = RS_NONE;
-			cmsPlaybackRecording.Text = "Playback recording";
+			cmsPlaybackRecording.Text = "播放记录";
 			timer.Reset();
 		}
 

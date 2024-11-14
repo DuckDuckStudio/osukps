@@ -321,7 +321,7 @@
 			// 
 			this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
 			this.settingsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-			this.settingsToolStripMenuItem.Text = "Settings(Not Working)";// 未找到用途
+			this.settingsToolStripMenuItem.Text = "配置(不工作)";// 未找到用途
 			this.settingsToolStripMenuItem.Visible = false;
 			// 
 			// changeFontToolStripMenuItem

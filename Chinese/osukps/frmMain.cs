@@ -314,7 +314,7 @@ namespace osukps {
 				LoadFont(fontfam, fontsize, fontbold);
 				settingsModified = false;
 			} catch (Exception) {
-				MessageBox.Show(string.Format("Failed to load settings at section '[{0}]' key '{1}'", section, key));
+				MessageBox.Show(string.Format("未能加载位于节 '[{0}]' 键 '{1}' 的配置", section, key));
 			}
 		}
 
@@ -322,7 +322,7 @@ namespace osukps {
 			if (!settingsModified) {
 				return;
 			}
-			DialogResult res = MessageBox.Show("Settings changed, save now?", "", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+			DialogResult res = MessageBox.Show("配置已被更改，立即保存吗?", "", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
 			if (res == DialogResult.Cancel) {
 				e.Cancel = true;
 			} else if (res == DialogResult.Yes) {
@@ -443,7 +443,7 @@ namespace osukps {
 		private void OnLoadSettingsFileClick(object sender, EventArgs e) {
 			if (settingsModified) {
 				DialogResult res = MessageBox.Show(
-					"Changed settings will be discarded when loading settings. Discard changes and continue loading settings?",
+					"在加载配置时，当前更改的配置将被丢弃。 放弃更改并继续加载配置？",
 					"",
 					MessageBoxButtons.YesNoCancel,
 					MessageBoxIcon.Question
@@ -460,7 +460,7 @@ namespace osukps {
 			string filetosave = ((ToolStripMenuItem) sender).Text;
 			if (filetosave != settingsFile) {
 				DialogResult res = MessageBox.Show(
-					"Save current configuration as " + filetosave + "?",
+					"将当前配置保存为 " + filetosave + "?",
 					"",
 					MessageBoxButtons.YesNoCancel,
 					MessageBoxIcon.Question
@@ -484,7 +484,7 @@ namespace osukps {
 
 		private void newConfigurationToolStripMenuItem_Click(object sender, EventArgs e) {
 			DialogPositioner.From(this);
-			string name = frmPrompt.Prompt("Save new configuration", "Enter a name for your new configuration.", "", "Save");
+			string name = frmPrompt.Prompt("保存新配置", "为您的新配置输入名称。", "", "保存");
 			if (name == null) {
 				return;
 			}

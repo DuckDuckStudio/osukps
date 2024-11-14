@@ -83,7 +83,7 @@ namespace osukps {
 
 		private void btnAdd_Click(object sender, EventArgs e) {
 			if (kpscolorcount == frmMain.MAX_KPS_COLORS) {
-				string msg = string.Format("The limit of {0} colors has been reached", frmMain.MAX_KPS_COLORS);
+				string msg = string.Format("已达到 {0} 颜色的限制", frmMain.MAX_KPS_COLORS);
 				MessageBox.Show(msg, "osukps", MessageBoxButtons.OK);
 				return;
 			}

@@ -51,7 +51,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(33, 12);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Total";
+            this.label1.Text = "总计";
             // 
             // label2
             // 
@@ -60,7 +60,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 12);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Yosika";
+            this.label2.Text = "Yosika";// 未找到用途 - 无法翻译
             // 
             // textBox1
             // 
@@ -91,7 +91,7 @@
             this.Controls.Add(this.txtTotal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmSetting";
-            this.Text = "frmSetting";
+            this.Text = "frmSetting";// 未找到用途 - 无法翻译
             this.Load += new System.EventHandler(this.frmSetting_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

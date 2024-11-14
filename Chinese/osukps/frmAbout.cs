@@ -58,7 +58,7 @@ namespace osukps {
 					lblDownload.Visible = true;
 					lblDownload.Text = string.Format(lblDownload.Text, latestTag);
 				} catch (Exception e) {
-					string msg = "Something went horribly wrong: " + e.Message;
+					string msg = "遇到了严重问题: " + e.Message;
 					MessageBox.Show(msg, "osukps", MessageBoxButtons.OK, MessageBoxIcon.Error);
 					btnUpdate.Enabled = true;
 					btnUpdate.Text = "检查失败 - 再次点击重试";
